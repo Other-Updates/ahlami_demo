@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <video id="videoUpload1" height="300px" width="100%" controls="controls" autoplay="" style="">
+                                                    <source src="https://demo.f2fsolutions.co.in/ahlami/attachments/booking_videos/booking-12/test.mov" type="video/quicktime" >
+                                                </video>
+                                                    <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
+    <script language="javascript" src="http://revolunet.github.com/VLCcontrols/src/jquery-vlc.js"></script> 
+    <link rel="stylesheet" type="text/css" href="http://revolunet.github.com/VLCcontrols/src/styles.css" /> 
+    <!-- embed the player and play a file -->
+     <embed type="application/x-vlc-plugin" name="player" autoplay="no" loop="no" target="udp:@239.255.12.42" />
+    <script language="javascript">
+        var player = VLCobject.embedPlayer('vlc1', 400, 300);
+        player.play('http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_480p_surround-fix.avi');
+    </script>
+    </body>
+</html>
